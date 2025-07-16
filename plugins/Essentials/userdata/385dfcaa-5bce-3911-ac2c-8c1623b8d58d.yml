@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 45.135.204.19
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1752607670366
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1752691277631
+  login: 1752690021261
+  kits:
+    firework: 1752577896770
+    notch: 1752577919947
+money: '0'
+last-account-name: eXceps
+logoutlocation:
+  world: d0570894-f3b8-476c-a330-3f7b8c124652
+  world-name: world
+  x: -635.1485103820689
+  y: 72.0
+  z: -806.9873162645117
+  yaw: 46.1689453125
+  pitch: 10.478216171264648
+lastlocation:
+  world: d0570894-f3b8-476c-a330-3f7b8c124652
+  world-name: world
+  x: -519.6999999880791
+  y: -43.0
+  z: -1287.300000011921
+  yaw: -81.8006591796875
+  pitch: 8.118658065795898

@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 88.241.185.32
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1752696047516
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1752696271082
+  login: 1752692515740
+money: '0'
+last-account-name: TheWarriorExe
+logoutlocation:
+  world: d0570894-f3b8-476c-a330-3f7b8c124652
+  world-name: world
+  x: -642.8459281000808
+  y: 72.0
+  z: -808.5863849609054
+  yaw: -119.75320434570312
+  pitch: 14.668676376342773
+lastlocation:
+  world: d0570894-f3b8-476c-a330-3f7b8c124652
+  world-name: world
+  x: -639.3000000119209
+  y: 65.0
+  z: -776.210946813912
+  yaw: -175.9503173828125
+  pitch: -8.69991683959961
+homes:
+  ev:
+    world: d0570894-f3b8-476c-a330-3f7b8c124652
+    world-name: world
+    x: -634.377768873037
+    y: 72.0
+    z: -795.7092330140131
+    yaw: 2.18536376953125
+    pitch: 15.253549575805664

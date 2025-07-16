@@ -1,0 +1,4 @@
+optimize-explosions: true
+anti-xray:
+  enabled: true
+  engine-mode: 2
