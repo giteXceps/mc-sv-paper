@@ -183,7 +183,7 @@ entities:
     - SleepingZ
     iron-golems-can-spawn-in-air: false
     monster-spawn-max-light-level: default
-    non-player-arrow-despawn-rate: default
+    non-player-arrow-despawn-rate: '40'
     per-player-mob-spawns: true
     scan-for-legacy-ender-dragon: true
     skeleton-horse-thunder-spawn-chance: default
@@ -266,8 +266,9 @@ fixes:
   tnt-entity-height-nerf: disabled
 hopper:
   cooldown-when-full: true
-  disable-move-event: false
+  disable-move-event: true
   ignore-occluding-blocks: false
+  tick-inactive: true
 lootables:
   auto-replenish: false
   max-refills: -1
@@ -285,6 +286,9 @@ max-growth-height:
     min: 11
   cactus: 3
   reeds: 3
+merge-radius:
+  exp: 6.0
+  item: 4.0
 misc:
   disable-end-credits: false
   disable-relative-projectile-velocity: false
@@ -300,6 +304,7 @@ scoreboards:
   use-vanilla-world-scoreboard-name-coloring: false
 spawn:
   allow-using-signs-inside-spawn-protection: false
+tick-inactive-villagers: false
 tick-rates:
   behavior:
     villager:
@@ -307,7 +312,7 @@ tick-rates:
   container-update: 1
   dry-farmland: 1
   grass-spread: 1
-  mob-spawner: 1
+  mob-spawner: 2
   sensor:
     villager:
       secondarypoisensor: 40
