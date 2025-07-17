@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1752741799959
+  lastteleport: 1752787915768
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
   logout: 1752742980476
-  login: 1752735234069
+  login: 1752784710001
 money: '0'
 last-account-name: TheWarriorExe
 logoutlocation:
@@ -31,11 +31,11 @@ logoutlocation:
 lastlocation:
   world: d0570894-f3b8-476c-a330-3f7b8c124652
   world-name: world
-  x: -632.3830677020112
-  y: 77.5625
-  z: -807.576441826685
-  yaw: -167.40032958984375
-  pitch: 9.749886512756348
+  x: -1418.1506316336345
+  y: 63.0
+  z: 1452.159547710404
+  yaw: 57.02996826171875
+  pitch: 33.618473052978516
 homes:
   ev:
     world: d0570894-f3b8-476c-a330-3f7b8c124652
