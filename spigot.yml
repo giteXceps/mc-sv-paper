@@ -137,6 +137,8 @@ world-settings:
     ticks-per:
       hopper-transfer: 8
       hopper-check: 1
+      animal-spawns: 400
+      monster-spawns: 1
     hopper-amount: 1
     hopper-can-load-chunks: false
     dragon-death-sound-radius: 0
