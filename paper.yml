@@ -1,0 +1,29 @@
+verbose: false
+settings:
+  save-empty-scoreboard-teams: false
+  use-alternate-keepalive: true
+  disable-teleportation-suffocation-check: true
+  region-file-cache-size: 256
+  enable-player-collisions: false
+  max-joins-per-tick: 3
+  console-has-all-permissions: false
+  suggest-player-names-when-null-tab-completions: true
+
+chunk-system:
+  enable-tick-disconnect: true
+  global-max-chunk-load-rate: 100.0
+  global-max-chunk-save-rate: 500.0
+  auto-save-interval: -1
+
+world-settings:
+  default:
+    merge-radius:
+      item: 4.0
+      exp: 6.0
+    hopper:
+      cooldown-when-full: true
+      disable-move-event: true
+      tick-inactive: true
+    mob-spawner-tick-rate: 2
+    tick-inactive-villagers: false
+    non-player-arrow-despawn-rate: 40
