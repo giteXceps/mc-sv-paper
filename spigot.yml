@@ -65,9 +65,9 @@ world-settings:
     simulation-distance: default
     thunder-chance: 100000
     merge-radius:
-      item: 4
-      exp: 6
-    mob-spawn-range: 8
+      item: 3.5
+      exp: 5
+    mob-spawn-range: 6
     item-despawn-rate: 6000
     arrow-despawn-rate: 1200
     trident-despawn-rate: 1200
@@ -102,11 +102,11 @@ world-settings:
       glowberry-modifier: 100
       pitcherplant-modifier: 100
     entity-activation-range:
-      animals: 32
+      animals: 16
       monsters: 32
-      raiders: 64
-      misc: 16
-      water: 16
+      raiders: 48
+      misc: 8
+      water: 8
       villagers: 32
       flying-monsters: 32
       wake-up-inactive:
@@ -128,17 +128,14 @@ world-settings:
       tick-inactive-villagers: true
       ignore-spectators: false
     entity-tracking-range:
-      players: 128
-      animals: 96
-      monsters: 96
-      misc: 96
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
       display: 128
       other: 64
-      hopper-transfer: 12
+      hopper-transfer: 8
       hopper-check: 8
-    ticks-per:
-      hopper-transfer: 24
-      hopper-check: 24
       animal-spawns: 400
       monster-spawns: 1
     hopper-amount: 1
