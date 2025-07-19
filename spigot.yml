@@ -59,6 +59,9 @@ advancements:
   - minecraft:story/disabled
 world-settings:
   default:
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
     verbose: false
     below-zero-generation-in-existing-chunks: true
     view-distance: default

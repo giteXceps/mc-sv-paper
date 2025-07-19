@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1752956903713
-  login: 1752956613217
+  logout: 1752959844533
+  login: 1752958584295
   kits:
     firework: 1752577896770
     notch: 1752577919947
@@ -26,11 +26,11 @@ last-account-name: eXceps
 logoutlocation:
   world: d0570894-f3b8-476c-a330-3f7b8c124652
   world-name: world
-  x: -665.1191697286415
+  x: -633.6477070550254
   y: 77.0
-  z: -828.028989912312
-  yaw: -141.1669921875
-  pitch: 22.510591506958008
+  z: -803.0655467071263
+  yaw: 179.82794189453125
+  pitch: 8.613628387451172
 lastlocation:
   world: d0570894-f3b8-476c-a330-3f7b8c124652
   world-name: world
