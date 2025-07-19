@@ -15,8 +15,8 @@
 _version: 31
 anticheat:
   anti-xray:
-    enabled: false
-    engine-mode: 1
+    enabled: true
+    engine-mode: 2
     hidden-blocks:
     - copper_ore
     - deepslate_copper_ore
@@ -47,7 +47,7 @@ anticheat:
     - stone
     - oak_planks
     - deepslate
-    update-radius: 2
+    update-radius: 1
     use-permission: false
   obfuscation:
     items:
@@ -265,6 +265,7 @@ fixes:
   split-overstacked-loot: true
   tnt-entity-height-nerf: disabled
 hopper:
+  push-based: true
   cooldown-when-full: true
   disable-move-event: true
   ignore-occluding-blocks: false

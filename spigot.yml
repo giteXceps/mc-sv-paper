@@ -134,9 +134,11 @@ world-settings:
       misc: 96
       display: 128
       other: 64
+      hopper-transfer: 12
+      hopper-check: 8
     ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
+      hopper-transfer: 24
+      hopper-check: 24
       animal-spawns: 400
       monster-spawns: 1
     hopper-amount: 1
