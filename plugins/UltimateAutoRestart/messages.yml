@@ -32,12 +32,12 @@
 stripConsole: false
 
 # Note: Default reason placeholder if a custom reason was not defined (force restart command)
-defaultReason: "Scheduled restart"
+defaultReason: "Otomatik Restart"
 
 messages:
 
    # Note: Use {PREFIX} &f» in any message to add the below prefix!
-   prefix: "<GRADIENT:9483FF>&lUltimateAutoRestart</GRADIENT:FB9AF2>&r"
+   prefix: "<GRADIENT:9483FF>&lAutoRestart</GRADIENT:FB9AF2>&r"
 
    EVENT_INTERVAL_GLOBAL:
    # Placeholders: {0} = interval, {1} = reason (if defined through the force command, otherwise it'll show N/A)
@@ -47,16 +47,16 @@ messages:
          centered: false
          content: 
          - ''
-         - '{PREFIX} &f» &fRestarting in &d{0}&f!'
+         - '{PREFIX} &f» &fYeniden başlatılıyor: &d{0}&f!'
          - ''
       actionbar:
          enabled: true
-         content: '{PREFIX} &f» &fRestarting in &d{0}&f!'
+         content: '{PREFIX} &f» &fYeniden başlatılıyor: &d{0}&f!'
          duration: 0
       titles:
          enabled: false
          titleContent: '{PREFIX}' 
-         subtitleContent: '&fRestarting in &d{0}&f!'
+         subtitleContent: '&fYeniden başlatılıyor: &d{0}&f!'
          
    EVENT_INTERVAL_CONSOLE:
    # Placeholders: {0} = interval, {1} = reason (if defined through the force command, otherwise it'll show N/A)
@@ -65,7 +65,7 @@ messages:
          enabled: true
          centered: false
          content: 
-         - '{PREFIX} &f» &fRestarting in &d{0}&f!'
+         - '{PREFIX} &f» &fYeniden başlatılıyor:&d{0}&f!'
          
    EVENT_RESTART_GLOBAL:
    # Placeholders: None
@@ -75,16 +75,16 @@ messages:
          centered: false
          content: 
          - ''
-         - '{PREFIX} &f» &fRestarting... join back soon!'
+         - '{PREFIX} &f» &fYeniden başlatılıyor, bir kaç saniye sonra giriş yapınız!'
          - ''
       actionbar:
          enabled: true
-         content: '{PREFIX} &f» &fRestarting... join back soon!'
+         content: '{PREFIX} &f» &fYeniden başlatılıyor, bir kaç saniye sonra giriş yapınız!'
          duration: 0
       titles:
          enabled: false
          titleContent: '{PREFIX}' 
-         subtitleContent: '&fRestarting... join back soon!'
+         subtitleContent: '&fYeniden başlatılıyor, bir kaç saniye sonra giriş yapınız!'
          
    EVENT_RESTART_DELAY_GLOBAL:
    # Placeholders: {0} = interval
@@ -94,16 +94,16 @@ messages:
          centered: false
          content: 
          - ''
-         - '{PREFIX} &f» &fThe restart has been delayed by &d{0}&f!'
+         - '{PREFIX} &f» &fRestart geciktirildi: &d{0}&f!'
          - ''
       actionbar:
          enabled: true
-         content: '{PREFIX} &f» &fThe restart has been delayed by &d{0}&f!'
+         content: '{PREFIX} &f» &fRestart geciktirildi: &d{0}&f!'
          duration: 0
       titles:
          enabled: false
          titleContent: '{PREFIX}' 
-         subtitleContent: '&fRestart has been delayed by &d{0}&f!'
+         subtitleContent: '&fRestart geciktirildi: &d{0}&f!'
          
    EVENT_RESTART_DELAY_STAFF:
    # Placeholders: {0} = interval
@@ -113,16 +113,16 @@ messages:
          centered: false
          content: 
          - ''
-         - '{PREFIX} &f» &fThe restart has been delayed by &d{0}&f!'
+         - '{PREFIX} &f» &fRestart geciktirildi: &d{0}&f!'
          - ''
       actionbar:
          enabled: true
-         content: '&c(Staff) {PREFIX} &f» &fThe restart has been delayed by &d{0}&f!'
+         content: '&c(Staff) {PREFIX} &f» &fRestart geciktirildi: &d{0}&f!'
          duration: 0
       titles:
          enabled: false
          titleContent: '{PREFIX}' 
-         subtitleContent: '&fRestart has been delayed by &d{0}&f!'
+         subtitleContent: '&fRestart geciktirildi:  &d{0}&f!'
 
    ############################### 
       
@@ -135,16 +135,16 @@ messages:
          content: 
          - ''
          - '{PREFIX} &f» &fRestarting in &d{0}&f!'
-         - '&7&o(Last restart happened {1} ago)'
+         - '&7&o(Son restart {1} saat önce yapıldı)'
          - ''
       actionbar:
          enabled: false
-         content: '{PREFIX} &f» &fRestarting in &d{0}&f!'
+         content: '{PREFIX} &f» &fYeniden başlatılıyor: &d{0}&f!'
          duration: 0
       titles:
          enabled: false
          titleContent: '{PREFIX}' 
-         subtitleContent: '&fRestarting in &d{0}&f!'
+         subtitleContent: '&fYeniden başlatılıyor: &d{0}&f!'
          
    ###############################  
       
