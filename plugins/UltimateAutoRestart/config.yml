@@ -67,7 +67,7 @@ settings:
    #- 'Saturday;12;00'
    #- 'Sunday;00;00'
    #- 'Sunday;12;00'
-   - 'Daily;02;20'
+   - 'Daily;02;25'
    
    # Note: Configure the messages in UltimateAutoRestart's messages.yml file!
    messageAtIntervals:
