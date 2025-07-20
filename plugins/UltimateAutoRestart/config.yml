@@ -67,7 +67,7 @@ settings:
    #- 'Saturday;12;00'
    #- 'Sunday;00;00'
    #- 'Sunday;12;00'
-   - 'Daily;02;00'
+   - 'Daily;02;10'
    
    # Note: Configure the messages in UltimateAutoRestart's messages.yml file!
    messageAtIntervals:
@@ -113,15 +113,15 @@ delayRestart:
 
 # Note: Configure how the interval shows up!   
 format:
-   seconds: 's'
-   second: 's'
-   minutes: 'm '
-   minute: 'm '
-   hours: 'h '
-   hour: 'h '
-   days: 'D '
-   day: 'D '
-   splitter: 'and '
+   seconds: 'sn'
+   second: 'sn'
+   minutes: 'd '
+   minute: 'd '
+   hours: 's '
+   hour: 's '
+   days: 'G '
+   day: 'G '
+   splitter: 've '
 
 ##################################
 #                                #
