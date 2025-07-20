@@ -5,6 +5,19 @@
       "name": "eXceps",
       "uniqueId": "385dfcaa-5bce-3911-ac2c-8c1623b8d58d"
     },
+    "time": 1752969090311,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/UP2sKG6Dyi"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "eXceps",
+      "uniqueId": "385dfcaa-5bce-3911-ac2c-8c1623b8d58d"
+    },
     "time": 1752955432135,
     "type": "Profiler",
     "data": {
