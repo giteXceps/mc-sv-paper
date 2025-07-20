@@ -15,8 +15,8 @@
 _version: 31
 anticheat:
   anti-xray:
-    enabled: true
-    engine-mode: 2
+    enabled: false
+    engine-mode: 1
     hidden-blocks:
     - copper_ore
     - deepslate_copper_ore
@@ -47,7 +47,7 @@ anticheat:
     - stone
     - oak_planks
     - deepslate
-    update-radius: 1
+    update-radius: 2
     use-permission: false
   obfuscation:
     items:
@@ -58,35 +58,21 @@ chunks:
   auto-save-interval: default
   delay-chunk-unloads-by: 10s
   entity-per-chunk-save-limit:
-    area_effect_cloud: 8
-    arrow: 16
-    breeze_wind_charge: 8
-    dragon_fireball: 3
-    egg: 8
-    ender_pearl: 8
-    experience_bottle: 3
-    experience_orb: 16
-    eye_of_ender: 8
-    fireball: 8
-    firework_rocket: 8
-    llama_spit: 3
-    potion: 8
-    shulker_bullet: 8
-    small_fireball: 8
-    snowball: 8
-    spectral_arrow: 16
-    trident: 16
-    wind_charge: 8
-    wither_skull: 4
+    arrow: -1
+    ender_pearl: -1
+    experience_orb: -1
+    fireball: -1
+    small_fireball: -1
+    snowball: -1
   fixed-chunk-inhabited-time: -1
   flush-regions-on-save: false
-  max-auto-save-chunks-per-tick: 8
-  prevent-moving-into-unloaded-chunks: true
+  max-auto-save-chunks-per-tick: 24
+  prevent-moving-into-unloaded-chunks: false
 collisions:
   allow-player-cramming-damage: false
   allow-vehicle-collisions: true
-  fix-climbing-bypassing-cramming-rule: true
-  max-entity-collisions: 2
+  fix-climbing-bypassing-cramming-rule: false
+  max-entity-collisions: 8
   only-players-collide: false
 command-blocks:
   force-follow-perm-level: true
@@ -154,62 +140,36 @@ entities:
   spawning:
     all-chunks-are-slime-chunks: false
     alt-item-despawn-rate:
-      enabled: true
+      enabled: false
       items:
-        acacia_leaves: 300
-        andesite: 300
-        bamboo: 300
-        birch_leaves: 300
-        cactus: 300
-        cherry_leaves: 300
         cobblestone: 300
-        dark_oak_leaves: 300
-        diorite: 300
-        dirt: 300
-        granite: 300
-        gravel: 300
-        jungle_leaves: 300
-        kelp: 300
-        mangrove_leaves: 300
-        melon_slice: 300
-        netherrack: 300
-        oak_leaves: 300
-        pumpkin: 300
-        red_sand: 300
-        sand: 300
-        scaffolding: 600
-        short_grass: 300
-        spruce_leaves: 300
-        sugar_cane: 300
-        twisting_vines: 300
-        weeping_vines: 300
     count-all-mobs-for-spawning: false
-    creative-arrow-despawn-rate: '20'
+    creative-arrow-despawn-rate: default
     despawn-ranges:
       ambient:
-        hard: 136
-        soft: 60
+        hard: default
+        soft: default
       axolotls:
-        hard: 136
-        soft: 60
+        hard: default
+        soft: default
       creature:
-        hard: 136
-        soft: 60
+        hard: default
+        soft: default
       misc:
-        hard: 136
-        soft: 60
+        hard: default
+        soft: default
       monster:
-        hard: 136
-        soft: 60
+        hard: default
+        soft: default
       underground_water_creature:
-        hard: 136
-        soft: 60
+        hard: default
+        soft: default
       water_ambient:
-        hard: 136
-        soft: 60
+        hard: default
+        soft: default
       water_creature:
-        hard: 136
-        soft: 60
+        hard: default
+        soft: default
     disable-mob-spawner-spawn-egg-transformation: false
     duplicate-uuid:
       mode: SAFE_REGEN
@@ -223,8 +183,8 @@ entities:
     - SleepingZ
     iron-golems-can-spawn-in-air: false
     monster-spawn-max-light-level: default
-    non-player-arrow-despawn-rate: '20'
-    per-player-mob-spawns: false
+    non-player-arrow-despawn-rate: default
+    per-player-mob-spawns: true
     scan-for-legacy-ender-dragon: true
     skeleton-horse-thunder-spawn-chance: default
     slime-spawn-height:
@@ -282,7 +242,7 @@ environment:
   max-block-ticks: 65536
   max-fluid-ticks: 65536
   nether-ceiling-void-damage-height: disabled
-  optimize-explosions: true
+  optimize-explosions: false
   portal-create-radius: 16
   portal-search-radius: 128
   portal-search-vanilla-dimension-scaling: true
@@ -306,10 +266,8 @@ fixes:
   tnt-entity-height-nerf: disabled
 hopper:
   cooldown-when-full: true
-  disable-move-event: true
+  disable-move-event: false
   ignore-occluding-blocks: false
-  push-based: true
-  tick-inactive: true
 lootables:
   auto-replenish: false
   max-refills: -1
@@ -327,41 +285,32 @@ max-growth-height:
     min: 11
   cactus: 3
   reeds: 3
-merge-radius:
-  exp: 6.0
-  item: 4.0
 misc:
   disable-end-credits: false
   disable-relative-projectile-velocity: false
   disable-sprint-interruption-on-attack: false
   light-queue-size: 20
   max-leash-distance: 10.0
-  redstone-implementation: ALTERNATE_CURRENT
+  redstone-implementation: VANILLA
   shield-blocking-delay: 5
   show-sign-click-command-failure-msgs-to-player: false
-  update-pathfinding-on-block-update: false
+  update-pathfinding-on-block-update: true
 scoreboards:
   allow-non-player-entities-on-scoreboards: true
   use-vanilla-world-scoreboard-name-coloring: false
 spawn:
   allow-using-signs-inside-spawn-protection: false
-tick-inactive-villagers: false
 tick-rates:
   behavior:
     villager:
-      acquirepoi: 120
-      validatenearbypoi: 60
+      validatenearbypoi: -1
   container-update: 1
   dry-farmland: 1
   grass-spread: 1
-  mob-spawner: 2
+  mob-spawner: 1
   sensor:
     villager:
-      nearestbedsensor: 80
-      nearestlivingentitysensor: 40
-      playersensor: 40
-      secondarypoisensor: 80
-      villagerbabiessensor: 40
+      secondarypoisensor: 40
   wet-farmland: 1
 unsupported-settings:
   disable-world-ticking-when-empty: false

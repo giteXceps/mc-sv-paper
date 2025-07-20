@@ -59,18 +59,14 @@ advancements:
   - minecraft:story/disabled
 world-settings:
   default:
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
-    verbose: false
     below-zero-generation-in-existing-chunks: true
     view-distance: default
     simulation-distance: default
     thunder-chance: 100000
     merge-radius:
-      item: 3.5
-      exp: 5
-    mob-spawn-range: 6
+      item: 0.5
+      exp: -1.0
+    mob-spawn-range: 8
     item-despawn-rate: 6000
     arrow-despawn-rate: 1200
     trident-despawn-rate: 1200
@@ -105,11 +101,11 @@ world-settings:
       glowberry-modifier: 100
       pitcherplant-modifier: 100
     entity-activation-range:
-      animals: 16
+      animals: 32
       monsters: 32
-      raiders: 48
-      misc: 8
-      water: 8
+      raiders: 64
+      misc: 16
+      water: 16
       villagers: 32
       flying-monsters: 32
       wake-up-inactive:
@@ -131,16 +127,15 @@ world-settings:
       tick-inactive-villagers: true
       ignore-spectators: false
     entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
+      players: 128
+      animals: 96
+      monsters: 96
+      misc: 96
       display: 128
       other: 64
+    ticks-per:
       hopper-transfer: 8
-      hopper-check: 8
-      animal-spawns: 400
-      monster-spawns: 1
+      hopper-check: 1
     hopper-amount: 1
     hopper-can-load-chunks: false
     dragon-death-sound-radius: 0
@@ -177,6 +172,7 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
+    verbose: false
 players:
   disable-saving: false
 config-version: 12

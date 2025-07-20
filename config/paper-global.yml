@@ -27,15 +27,11 @@ chunk-loading-basic:
   player-max-chunk-load-rate: 100.0
   player-max-chunk-send-rate: 75.0
 chunk-system:
-  auto-save-interval: -1
-  enable-tick-disconnect: true
   gen-parallelism: default
-  global-max-chunk-load-rate: 100.0
-  global-max-chunk-save-rate: 500.0
   io-threads: -1
   worker-threads: -1
 collisions:
-  enable-player-collisions: false
+  enable-player-collisions: true
   send-full-pos-for-hard-colliding-entities: true
 commands:
   fix-target-selector-tag-completion: true
@@ -45,7 +41,6 @@ console:
   enable-brigadier-completions: true
   enable-brigadier-highlighting: true
   has-all-permissions: false
-disable-teleportation-suffocation-check: true
 item-validation:
   book:
     author: 8192
@@ -76,7 +71,7 @@ misc:
   compression-level: default
   fix-entity-position-desync: true
   load-permissions-yml-before-plugins: true
-  max-joins-per-tick: 3
+  max-joins-per-tick: 5
   region-file-cache-size: 256
   strict-advancement-dimension-check: false
   use-alternative-luck-formula: false
@@ -104,7 +99,7 @@ proxies:
     online-mode: true
     secret: ''
 scoreboards:
-  save-empty-scoreboard-teams: false
+  save-empty-scoreboard-teams: true
   track-plugin-scoreboards: false
 spam-limiter:
   incoming-packet-threshold: 300
@@ -135,7 +130,6 @@ unsupported-settings:
   compression-format: ZLIB
   perform-username-validation: true
   skip-vanilla-damage-tick-when-shield-blocked: false
-use-alternate-keepalive: true
 watchdog:
   early-warning-delay: 10000
   early-warning-every: 5000
