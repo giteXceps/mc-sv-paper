@@ -16,8 +16,8 @@
 _version: 31
 anticheat:
   anti-xray:
-    enabled: false
-    engine-mode: 1
+    enabled: true
+    engine-mode: 2
     hidden-blocks:
     - copper_ore
     - deepslate_copper_ore
@@ -62,13 +62,13 @@ chunks:
     snowball: -1
   fixed-chunk-inhabited-time: -1
   flush-regions-on-save: false
-  max-auto-save-chunks-per-tick: 24
-  prevent-moving-into-unloaded-chunks: false
+  max-auto-save-chunks-per-tick: 8
+  prevent-moving-into-unloaded-chunks: true
 collisions:
   allow-player-cramming-damage: false
   allow-vehicle-collisions: true
   fix-climbing-bypassing-cramming-rule: false
-  max-entity-collisions: 8
+  max-entity-collisions: 2
   only-players-collide: false
 command-blocks:
   force-follow-perm-level: true
@@ -120,7 +120,7 @@ entities:
         per-player: false
     player-insomnia-start-ticks: 72000
     should-remove-dragon: false
-    spawner-nerfed-mobs-should-jump: false
+    spawner-nerfed-mobs-should-jump: true
     zombie-villager-infection-chance: default
     zombies-target-turtle-eggs: true
   markers:
@@ -179,10 +179,10 @@ entities:
     - Pos
     - Motion
     - sleeping_pos
-    iron-golems-can-spawn-in-air: false
-    monster-spawn-max-light-level: default
+    iron-golems-can-spawn-in-air: true
+    monster-spawn-max-light-level: 3
     non-player-arrow-despawn-rate: default
-    per-player-mob-spawns: true
+    per-player-mob-spawns: false
     scan-for-legacy-ender-dragon: true
     skeleton-horse-thunder-spawn-chance: default
     slime-spawn-height:
@@ -195,7 +195,7 @@ entities:
       ambient: -1
       axolotls: -1
       creature: -1
-      monster: -1
+      monster: 1000
       underground_water_creature: -1
       water_ambient: -1
       water_creature: -1
@@ -203,7 +203,7 @@ entities:
       ambient: -1
       axolotls: -1
       creature: -1
-      monster: -1
+      monster: 5
       underground_water_creature: -1
       water_ambient: -1
       water_creature: -1
