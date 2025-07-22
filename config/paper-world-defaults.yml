@@ -67,7 +67,7 @@ chunks:
   fixed-chunk-inhabited-time: -1
   flush-regions-on-save: false
   max-auto-save-chunks-per-tick: 8
-  prevent-moving-into-unloaded-chunks: false
+  prevent-moving-into-unloaded-chunks: true
 collisions:
   allow-player-cramming-damage: false
   allow-vehicle-collisions: true
@@ -197,18 +197,18 @@ entities:
       ambient: -1
       axolotls: -1
       creature: -1
-      monster: -1
+      monster: 200
       underground_water_creature: -1
       water_ambient: -1
       water_creature: -1
     ticks-per-spawn:
-      ambient: -1
-      axolotls: -1
-      creature: -1
-      monster: -1
-      underground_water_creature: -1
-      water_ambient: -1
-      water_creature: -1
+      ambient: 400
+      axolotls: 400
+      creature: 400
+      monster: 10
+      underground_water_creature: 400
+      water_ambient: 400
+      water_creature: 400
     wandering-trader:
       spawn-chance-failure-increment: 25
       spawn-chance-max: 75
