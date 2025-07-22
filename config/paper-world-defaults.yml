@@ -16,8 +16,8 @@
 _version: 31
 anticheat:
   anti-xray:
-    enabled: false
-    engine-mode: 1
+    enabled: true
+    engine-mode: 2
     hidden-blocks:
     - copper_ore
     - deepslate_copper_ore
@@ -63,7 +63,7 @@ chunks:
   fixed-chunk-inhabited-time: -1
   flush-regions-on-save: false
   max-auto-save-chunks-per-tick: 24
-  prevent-moving-into-unloaded-chunks: false
+  prevent-moving-into-unloaded-chunks: true
 collisions:
   allow-player-cramming-damage: false
   allow-vehicle-collisions: true
@@ -195,7 +195,7 @@ entities:
       ambient: -1
       axolotls: -1
       creature: -1
-      monster: -1
+      monster: 1000
       underground_water_creature: -1
       water_ambient: -1
       water_creature: -1
@@ -203,7 +203,7 @@ entities:
       ambient: -1
       axolotls: -1
       creature: -1
-      monster: -1
+      monster: 10
       underground_water_creature: -1
       water_ambient: -1
       water_creature: -1
@@ -292,7 +292,7 @@ misc:
   disable-sprint-interruption-on-attack: false
   legacy-ender-pearl-behavior: false
   max-leash-distance: default
-  redstone-implementation: VANILLA
+  redstone-implementation: ALTERNATE_CURRENT
   shield-blocking-delay: 5
   show-sign-click-command-failure-msgs-to-player: false
   update-pathfinding-on-block-update: true
