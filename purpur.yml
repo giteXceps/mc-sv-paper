@@ -1156,12 +1156,12 @@ world-settings:
         attacked-by-crystal-damage: 1.0
         orbit-crystal-radius: 0.0
         spawn:
-          min-sky-darkness: 5
-          only-above-sea-level: true
-          only-with-visible-sky: true
-          local-difficulty-chance: 3.0
+          min-sky-darkness: 0
+          only-above-sea-level: false
+          only-with-visible-sky: false
+          local-difficulty-chance: 5.0
           per-attempt:
-            min: 1
+            min: 3
             max: -1
         burn-in-light: 0
         burn-in-daylight: true

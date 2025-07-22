@@ -203,7 +203,7 @@ entities:
       ambient: -1
       axolotls: -1
       creature: -1
-      monster: 10
+      monster: 5
       underground_water_creature: -1
       water_ambient: -1
       water_creature: -1
