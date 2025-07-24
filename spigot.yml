@@ -115,15 +115,15 @@ world-settings:
       tick-inactive-villagers: true
       ignore-spectators: false
     entity-tracking-range:
-      players: 128
-      animals: 96
-      monsters: 96
-      misc: 96
-      display: 128
-      other: 64
+    players: 64
+    animals: 32
+    monsters: 32
+    misc: 16
+    display: 64
+    other: 32
     ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
+      hopper-transfer: 24
+      hopper-check: 24
     hopper-amount: 1
     hopper-can-load-chunks: false
     dragon-death-sound-radius: 0
@@ -158,8 +158,8 @@ world-settings:
       other-multiplier: 0.0
     max-tnt-per-tick: 100
     max-tick-time:
-      tile: 50
-      entity: 50
+      tile: 30
+      entity: 30
     verbose: false
 players:
   disable-saving: false
