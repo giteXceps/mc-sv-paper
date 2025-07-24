@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1753237484975
+  lastteleport: 1753389512332
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1753237571067
-  login: 1753229019765
+  logout: 1753391319510
+  login: 1753387928669
 money: '0'
 last-account-name: orang
 lastlocation:
   world: d0570894-f3b8-476c-a330-3f7b8c124652
   world-name: world
-  x: -1340.300000011921
-  y: 65.0
-  z: -1094.699999988079
-  yaw: -19.23040771484375
-  pitch: 23.751848220825195
+  x: -632.9739647431466
+  y: 77.0
+  z: -803.9509803831348
+  yaw: -127.63211822509766
+  pitch: 4.969812870025635
 logoutlocation:
   world: d0570894-f3b8-476c-a330-3f7b8c124652
   world-name: world
-  x: -656.1009645043263
-  y: 72.0
-  z: -807.9933993876596
-  yaw: -126.583740234375
-  pitch: 24.61986541748047
+  x: -996.4530587807652
+  y: 121.875
+  z: -1134.8836794493327
+  yaw: -178.7999267578125
+  pitch: 46.19991683959961
