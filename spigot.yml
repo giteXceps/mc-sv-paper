@@ -47,6 +47,13 @@ advancements:
   - minecraft:story/disabled
 world-settings:
   default:
+    entity-tracking-range:
+      players: 128
+      animals: 96
+      monsters: 96
+      misc: 96
+      display: 128
+      other: 64
     below-zero-generation-in-existing-chunks: true
     view-distance: default
     simulation-distance: default
@@ -114,7 +121,6 @@ world-settings:
       villagers-active-for-panic: true
       tick-inactive-villagers: true
       ignore-spectators: false
-    entity-tracking-range:
     players: 64
     animals: 32
     monsters: 32
