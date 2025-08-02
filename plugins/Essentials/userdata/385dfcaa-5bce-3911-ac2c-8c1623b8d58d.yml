@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1753491378447
+  lastteleport: 1754063841438
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1753540020712
-  login: 1753539856282
+  logout: 1754083731888
+  login: 1754082491354
   kits:
     firework: 1752577896770
     notch: 1752577919947
@@ -26,17 +26,17 @@ last-account-name: eXceps
 logoutlocation:
   world: d0570894-f3b8-476c-a330-3f7b8c124652
   world-name: world
-  x: -665.5727773622095
-  y: 94.0
-  z: -842.0725223586572
-  yaw: 171.189453125
-  pitch: 7.267603874206543
+  x: -633.751702571289
+  y: 77.0
+  z: -803.3143621323645
+  yaw: -4.189451694488525
+  pitch: 29.91315269470215
 lastlocation:
   world: d0570894-f3b8-476c-a330-3f7b8c124652
   world-name: world
-  x: -607.3000000119209
-  y: 73.93807527079078
-  z: -802.5693551941484
-  yaw: -55.480712890625
-  pitch: 90.0
+  x: -653.9531386763421
+  y: 58.0
+  z: -590.3615192868625
+  yaw: -176.8309326171875
+  pitch: 2.9317195415496826
 nickname: eXceps
