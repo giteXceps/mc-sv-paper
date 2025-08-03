@@ -11,28 +11,29 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1754078164299
+  lastteleport: 1754152963172
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1754086206839
-  login: 1754086175782
+  logout: 1754178803055
+  login: 1754178198752
 money: '0'
 last-account-name: dehsa
 lastlocation:
   world: d0570894-f3b8-476c-a330-3f7b8c124652
   world-name: world
-  x: -209.64790281451337
-  y: 58.0
-  z: -1112.800511993198
-  yaw: 95.10470581054688
-  pitch: 49.49995040893555
+  x: -789.9668974670785
+  y: 99.0
+  z: -1003.0535260571992
+  yaw: -176.7021942138672
+  pitch: -5.249945640563965
 logoutlocation:
   world: d0570894-f3b8-476c-a330-3f7b8c124652
   world-name: world
-  x: -665.3562792655578
-  y: 94.0
-  z: -855.9757934039301
-  yaw: -15.449737548828125
-  pitch: -34.3499641418457
+  x: -682.5870300656262
+  y: 72.0
+  z: -807.5093564627028
+  yaw: -175.0493927001953
+  pitch: -7.199930191040039
+nickname: dehsa
