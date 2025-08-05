@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 109.228.249.215
+ip-address: 46.1.111.139
 afk: false
 socialspy: false
 npc: false
@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1754245362892
+  lastteleport: 1754334315084
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1754256449421
-  login: 1754255495554
+  logout: 1754334515624
+  login: 1754331234477
 money: '0'
 last-account-name: Krutsh
 logoutlocation:
   world: d0570894-f3b8-476c-a330-3f7b8c124652
   world-name: world
-  x: -633.948269843253
+  x: -634.3664474700466
   y: 77.0
-  z: -796.826209407718
-  yaw: 175.86541748046875
-  pitch: 0.8999143242835999
+  z: -800.0105044287862
+  yaw: -68.69244384765625
+  pitch: 29.37466049194336
 lastlocation:
   world: d0570894-f3b8-476c-a330-3f7b8c124652
   world-name: world
-  x: -520.2210210904583
-  y: 160.0
-  z: -493.2771119229808
-  yaw: -50.79083251953125
-  pitch: 15.998714447021484
+  x: -590.8209082389392
+  y: 56.0
+  z: -810.4667946333349
+  yaw: 95.55642700195312
+  pitch: 13.17271900177002
