@@ -59,8 +59,8 @@ world-settings:
     simulation-distance: default
     thunder-chance: 100000
     merge-radius:
-      item: 0.5
-      exp: -1.0
+      item: 2.5
+      exp: 1.0
     mob-spawn-range: 8
     item-despawn-rate: 6000
     arrow-despawn-rate: 1200
@@ -131,7 +131,7 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 8
     hopper-amount: 1
-    hopper-can-load-chunks: false
+    hopper-can-load-chunks: true
     dragon-death-sound-radius: 0
     seed-village: 10387312
     seed-desert: 14357617

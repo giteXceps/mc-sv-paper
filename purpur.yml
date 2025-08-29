@@ -35,7 +35,7 @@ settings:
   register-minecraft-debug-commands: false
   register-minecraft-disabled-commands: false
   server-mod-name: Purpur
-  use-alternate-keepalive: false
+  use-alternate-keepalive: true
   disable-give-dropping: false
   bee-count-payload: false
   tps-catchup: true
