@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 194.31.11.22
+ip-address: 88.230.40.177
 afk: false
 socialspy: false
 npc: false
@@ -11,29 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1755970097756
+  lastteleport: 1754652746393
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1755972161937
-  login: 1755970053836
+  logout: 1754673405020
+  login: 1754671770219
 money: '0'
-last-account-name: dehsa
+last-account-name: malicebabapro2
 lastlocation:
   world: d0570894-f3b8-476c-a330-3f7b8c124652
   world-name: world
-  x: -692.0176161820928
-  y: 81.17906116032036
-  z: -824.0614175452348
-  yaw: 6.9075927734375
-  pitch: 20.100017547607422
+  x: -13.5
+  y: 86.0
+  z: 19.5
+  yaw: 0.0
+  pitch: 0.0
 logoutlocation:
   world: d0570894-f3b8-476c-a330-3f7b8c124652
   world-name: world
-  x: -683.9427561375114
-  y: 78.0
-  z: -829.0749999880791
-  yaw: -133.31982421875
-  pitch: 33.60008239746094
-nickname: dehsa
+  x: 1684.6273926441936
+  y: 62.0
+  z: -344.53156703306627
+  yaw: -152.5531768798828
+  pitch: -29.100038528442383
