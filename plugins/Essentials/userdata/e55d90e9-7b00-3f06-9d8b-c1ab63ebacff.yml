@@ -11,13 +11,21 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
+<<<<<<< HEAD
   lastteleport: 1756457507121
+=======
+  lastteleport: 1756382713050
+>>>>>>> 53ea2cf155416bc77a97f5bf242b77f765c56cdb
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
   logout: 1756384136905
+<<<<<<< HEAD
   login: 1756456873921
+=======
+  login: 1756379527669
+>>>>>>> 53ea2cf155416bc77a97f5bf242b77f765c56cdb
 money: '0'
 last-account-name: TheWarriorExe
 logoutlocation:
@@ -31,11 +39,19 @@ logoutlocation:
 lastlocation:
   world: d0570894-f3b8-476c-a330-3f7b8c124652
   world-name: world
+<<<<<<< HEAD
   x: -633.0804030808578
   y: 72.0
   z: -806.8933754220204
   yaw: 108.0
   pitch: 12.449999809265137
+=======
+  x: -629.5
+  y: 72.5625
+  z: -808.5
+  yaw: -2.5044780613825424E-6
+  pitch: 0.0
+>>>>>>> 53ea2cf155416bc77a97f5bf242b77f765c56cdb
 homes:
   ev:
     world: d0570894-f3b8-476c-a330-3f7b8c124652
