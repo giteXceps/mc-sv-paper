@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1757445683714
-  login: 1757445076569
+  logout: 1757446984756
+  login: 1757446880188
 money: '999999999999'
 last-account-name: eXceps
 lastlocation:
@@ -34,5 +34,5 @@ logoutlocation:
   x: -1076.306841830958
   y: 137.0
   z: -1547.2466001751654
-  yaw: 177.85687255859375
-  pitch: 28.44310760498047
+  yaw: -178.5894317626953
+  pitch: 30.834806442260742
