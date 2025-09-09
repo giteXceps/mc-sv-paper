@@ -12,7 +12,7 @@ common:
     defaultPermissions:
         notAllowed: 'No permission'
         opOnly: 'OP''s only'
-        allowed: 'Everyone allowed'
+        allowed: 'Everyone allowed' 
 
 # -------------------------------------------------------
 # Titles of the individual help sections

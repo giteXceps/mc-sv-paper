@@ -8,24 +8,24 @@ save:
   forceregioncachedump: true
   onplugindisable: true
 backup:
-  enabled: false
-  interval: 21600
+  enabled: true
+  interval: 43200
   broadcast: true
   savebefore: true
   rateLimit: -1
   localfs:
     enabled: true
     destinationfolders:
-    - /home/sefa/Desktop/mc-sv-paper
+    - /home/sefa/Desktop/mc-sv-paper-world-yedek
     worlds:
     - '*'
-    MaxNumberOfWorldsBackups: 15
+    MaxNumberOfWorldsBackups: 2
     pluginsfolder: false
-    MaxNumberOfPluginsBackups: 15
+    MaxNumberOfPluginsBackups: 2
     otherfolders: []
-    MaxNumberOfOtherFoldersBackups: 15
+    MaxNumberOfOtherFoldersBackups: 2
     excludefolders: []
-    zip: false
+    zip: true
   ftp:
     enabled: false
     hostname: 127.0.0.1
