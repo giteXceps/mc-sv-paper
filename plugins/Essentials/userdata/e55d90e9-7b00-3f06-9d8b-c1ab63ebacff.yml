@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 138.199.30.168
+ip-address: 85.107.102.28
 afk: false
 socialspy: false
 npc: false
@@ -11,20 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1757452046408
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1757371904389
-  login: 1757371900719
+  logout: 1757452855271
+  login: 1757452804909
 money: '999999999999'
 last-account-name: TheWarriorExe
 logoutlocation:
   world: d0570894-f3b8-476c-a330-3f7b8c124652
   world-name: world
-  x: 4836.465833860233
-  y: 149.08817597301487
-  z: -6375.233571770824
-  yaw: -84.49397277832031
-  pitch: 3.1500728130340576
+  x: -643.5042344732447
+  y: 71.9375
+  z: -807.713623609432
+  yaw: 145.36764526367188
+  pitch: 8.850079536437988
+lastlocation:
+  world: d0570894-f3b8-476c-a330-3f7b8c124652
+  world-name: world
+  x: 4833.123253834184
+  y: 63.0
+  z: -6402.924158452898
+  yaw: 29.355913162231445
+  pitch: 21.450119018554688
