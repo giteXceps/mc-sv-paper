@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 194.31.11.22
+ip-address: 138.199.30.168
 afk: false
 socialspy: false
 npc: false
@@ -11,24 +11,16 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1755970097756
+  lastteleport: 1756556737340
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1755972161937
-  login: 1755970053836
-money: '0'
+  logout: 1757371918489
+  login: 1757371914072
+money: '999999999999'
 last-account-name: dehsa
 lastlocation:
-  world: d0570894-f3b8-476c-a330-3f7b8c124652
-  world-name: world
-  x: -692.0176161820928
-  y: 81.17906116032036
-  z: -824.0614175452348
-  yaw: 6.9075927734375
-  pitch: 20.100017547607422
-logoutlocation:
   world: d0570894-f3b8-476c-a330-3f7b8c124652
   world-name: world
   x: -683.9427561375114
@@ -36,4 +28,12 @@ logoutlocation:
   z: -829.0749999880791
   yaw: -133.31982421875
   pitch: 33.60008239746094
+logoutlocation:
+  world: d0570894-f3b8-476c-a330-3f7b8c124652
+  world-name: world
+  x: -682.6035040727936
+  y: 73.20101034360248
+  z: -820.6142588242692
+  yaw: -3.2936508655548096
+  pitch: 16.349987030029297
 nickname: dehsa

@@ -11,57 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-<<<<<<< HEAD
-  lastteleport: 1756432840280
-=======
-  lastteleport: 1755819629260
->>>>>>> 53ea2cf155416bc77a97f5bf242b77f765c56cdb
+  lastteleport: 1757445234340
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-<<<<<<< HEAD
-  logout: 1756433239407
-  login: 1756432373086
-=======
-  logout: 1755989734647
-  login: 1755989241766
->>>>>>> 53ea2cf155416bc77a97f5bf242b77f765c56cdb
-  kits:
-    firework: 1752577896770
-    notch: 1752577919947
-money: '0'
+  logout: 1757445683714
+  login: 1757445076569
+money: '999999999999'
 last-account-name: eXceps
+lastlocation:
+  world: d0570894-f3b8-476c-a330-3f7b8c124652
+  world-name: world
+  x: -638.3000000119209
+  y: 80.0
+  z: -796.4065647142052
+  yaw: -179.96836853027344
+  pitch: 21.97722053527832
 logoutlocation:
   world: d0570894-f3b8-476c-a330-3f7b8c124652
   world-name: world
-<<<<<<< HEAD
-  x: -1004.9763093114061
-  y: 143.0
-  z: -1125.0925163059417
-  yaw: -90.485595703125
-  pitch: 8.011964797973633
-lastlocation:
-  world: d0570894-f3b8-476c-a330-3f7b8c124652
-  world-name: world
-  x: -634.5169572782872
-  y: 71.9375
-  z: -812.6924738365512
-  yaw: 6.379150390625
-  pitch: 0.9859505295753479
-=======
-  x: -1007.7702213811001
-  y: 145.0
-  z: -1121.8880309141048
-  yaw: -107.333984375
-  pitch: 43.37507247924805
-lastlocation:
-  world: d0570894-f3b8-476c-a330-3f7b8c124652
-  world-name: world
-  x: 4939.43564945724
-  y: 44.855290756421475
-  z: -6408.930041857598
-  yaw: 23.056640625
-  pitch: 10.69044017791748
->>>>>>> 53ea2cf155416bc77a97f5bf242b77f765c56cdb
-nickname: eXceps
+  x: -1076.306841830958
+  y: 137.0
+  z: -1547.2466001751654
+  yaw: 177.85687255859375
+  pitch: 28.44310760498047
