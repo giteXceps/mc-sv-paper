@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 78.174.207.233
+ip-address: 88.236.182.217
 afk: false
 socialspy: false
 npc: false
@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1757452777940
+  lastteleport: 1758056791426
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1757452821009
-  login: 1757449838467
+  logout: 1758057239754
+  login: 1758052238086
 money: '999999999999'
 last-account-name: orang
 lastlocation:
-  world: d0570894-f3b8-476c-a330-3f7b8c124652
-  world-name: world
-  x: -599.5087755344898
-  y: 62.0
-  z: -825.3000000119209
-  yaw: 97.98028564453125
-  pitch: -2.6611881256103516
+  world: 64c1d56e-58ed-460f-936a-2b6a86b03cb7
+  world-name: world_the_end
+  x: -238.32073579269934
+  y: 1.0
+  z: 0.5773006205287569
+  yaw: -145.283447265625
+  pitch: 2.849990129470825
 logoutlocation:
   world: d0570894-f3b8-476c-a330-3f7b8c124652
   world-name: world
-  x: -651.6223728614541
-  y: 74.0
-  z: -842.2245138821385
-  yaw: 39.756553649902344
-  pitch: 6.722689151763916
+  x: -1059.5
+  y: 111.0
+  z: -1468.5
+  yaw: 153.43516540527344
+  pitch: 0.0
