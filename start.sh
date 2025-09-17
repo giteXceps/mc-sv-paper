@@ -19,9 +19,9 @@ else
     # === Yedekleme fonksiyonu ===
     backup_worlds() {
       TIMESTAMP=\$(date +'%Y-%m-%d_%H-%M-%S')
-      BACKUP_FILE='$BACKUP_DIR/mc_backup_\$TIMESTAMP.tar.gz'
+      BACKUP_FILE='$BACKUP_DIR/mc_backup_'\$TIMESTAMP'.tar.gz'
 
-      echo '📦 World klasörleri yedekleniyor: \$BACKUP_FILE'
+      echo '📦 World klasörleri yedekleniyor: '\$BACKUP_FILE
       tar -czf \"\$BACKUP_FILE\" world world_nether world_the_end
 
       # Eski yedekleri sil (MAX_BACKUPS kadar bırak)
