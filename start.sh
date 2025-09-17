@@ -15,23 +15,23 @@ if screen -list | grep -q "$SCREEN_NAME"; then
   echo "Screen '$SCREEN_NAME' zaten açık."
 else
   echo "Screen '$SCREEN_NAME' başlatılıyor..."
-  screen -dmS $SCREEN_NAME bash -c '
+  screen -dmS $SCREEN_NAME bash -c "
     # === Yedekleme fonksiyonu ===
     backup_worlds() {
-      TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
-      BACKUP_FILE="$HOME/Desktop/mc_yedek/mc_backup_$TIMESTAMP.tar.gz"
+      TIMESTAMP=\$(date +'%Y-%m-%d_%H-%M-%S')
+      BACKUP_FILE='$BACKUP_DIR/mc_backup_\$TIMESTAMP.tar.gz'
 
-      echo "📦 World klasörleri yedekleniyor: $BACKUP_FILE"
-      tar -czf "$BACKUP_FILE" world world_nether world_the_end
+      echo '📦 World klasörleri yedekleniyor: \$BACKUP_FILE'
+      tar -czf \"\$BACKUP_FILE\" world world_nether world_the_end
 
       # Eski yedekleri sil (MAX_BACKUPS kadar bırak)
-      MAX_BACKUPS=2
-      BACKUP_COUNT=$(ls -1t $HOME/Masaüstü/mc_yedek/mc_backup_*.tar.gz 2>/dev/null | wc -l)
-      if [ "$BACKUP_COUNT" -gt "$MAX_BACKUPS" ]; then
-        OLDEST=$(ls -1t $HOME/Masaüstü/mc_yedek/mc_backup_*.tar.gz | tail -n +$(($MAX_BACKUPS + 1)))
-        echo "🗑 Eski yedekler siliniyor:"
-        echo "$OLDEST"
-        rm -f $OLDEST
+      MAX_BACKUPS=$MAX_BACKUPS
+      BACKUP_COUNT=\$(ls -1t '$BACKUP_DIR'/mc_backup_*.tar.gz 2>/dev/null | wc -l)
+      if [ \"\$BACKUP_COUNT\" -gt \"\$MAX_BACKUPS\" ]; then
+        OLDEST=\$(ls -1t '$BACKUP_DIR'/mc_backup_*.tar.gz | tail -n +\$((\$MAX_BACKUPS + 1)))
+        echo '🗑 Eski yedekler siliniyor:'
+        echo \"\$OLDEST\"
+        echo \"\$OLDEST\" | xargs rm -f
       fi
     }
 
@@ -41,9 +41,9 @@ else
       # Sunucu kapandıktan sonra yedek al
       backup_worlds
 
-      echo "Sunucu kapandı, 5 saniye sonra yeniden başlıyor..."
+      echo 'Sunucu kapandı, 5 saniye sonra yeniden başlıyor...'
       sleep 5
     done
-  '
+  "
   echo "Sunucu '$SCREEN_NAME' içinde başlatıldı."
 fi
